@@ -1,0 +1,21 @@
+@import "./scss/bootstrap";
+@import "./scss/auth";
+@import './scss/Home';
+@import './scss/footer';
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.dashboard{
+    background-image: url(../src/Assets/home7.jpg);
+}
+
+
